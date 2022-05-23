@@ -24,6 +24,8 @@ const Createdata = (newData, callback) =>{
     setTimeout(() => {
         datas.push(newData);
         callback();
+
+        //Adding header
         
     }, 2000);
     
